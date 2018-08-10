@@ -13,12 +13,13 @@ public class EventBusDemo {
 
     MessageConsumer<String> consumer = eventBus.consumer("news.uk.sport");
 
-    consumer.handler(message -> {
-      System.out.println("I have received a message1111:  = [" + message.body() + message.headers() + "]");
-    });
+//    consumer.handler(message -> {
+//      System.out.println("I have received a message1111:  = [" + message.body() + message.headers() + "]");
+//    });
 
     eventBus.consumer("news.uk.sport",message -> {
       System.out.println("I have received a message22222:  = [" + message.body() + message.headers() + "]");
+      message.reply("回执信息");
     });
 
     consumer.completionHandler(res -> {
@@ -31,7 +32,9 @@ public class EventBusDemo {
 
     DeliveryOptions options = new DeliveryOptions();
     options.addHeader("a", "a1");
-    //eventBus.send("news.uk.sport", "Yay! Someone kicked a ball");
-    eventBus.publish("news.uk.sport", "This is a message",options);
+    eventBus.send("news.uk.sport", "Yay! Someone kicked a ball", reply -> {
+      System.out.println("reply = [接收回执信息" + reply.result().body() + "]");
+    });
+    //eventBus.publish("news.uk.sport", "This is a message",options);
   }
 }
