@@ -6,7 +6,7 @@
         <sourceOutputDir name="src/main/generated" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <option name="outputDirectory" value="D:\Code\Java\vertx-maven-starter/src/main" />
+        <option name="outputDirectory" value="D:\GoogleSync\Java\vertx-maven-starter/src/main" />
         <processor name="io.vertx.codegen.CodeGenProcessor" />
         <module name="vertx-maven-starter" />
       </profile>
@@ -17,7 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="vertx-maven-starter" options="-AoutputDirectory=D:\Code\Java\vertx-maven-starter/src/main" />
+      <module name="vertx-maven-starter" options="-AoutputDirectory=D:\GoogleSync\Java\vertx-maven-starter/src/main" />
     </option>
   </component>
 </project>

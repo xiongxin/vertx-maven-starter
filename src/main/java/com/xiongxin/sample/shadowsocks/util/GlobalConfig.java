@@ -203,12 +203,12 @@ public class GlobalConfig {
       GlobalConfig.get().setServer(server);
     }
     if (jsonobj.containsKey(SERVER_PORT)) {
-      int port = jsonobj.getInteger(SERVER_PORT).intValue();
+      int port = jsonobj.getInteger(SERVER_PORT);
       log.debug("CFG:Server port: " + port);
       GlobalConfig.get().setPort(port);
     }
     if (jsonobj.containsKey(LOCAL_PORT)) {
-      int lport = jsonobj.getInteger(LOCAL_PORT).intValue();
+      int lport = jsonobj.getInteger(LOCAL_PORT);
       log.debug("CFG:Local port: " + lport);
       GlobalConfig.get().setLocalPort(lport);
     }
@@ -223,17 +223,17 @@ public class GlobalConfig {
       GlobalConfig.get().setMethod(method);
     }
     if (jsonobj.containsKey(AUTH)) {
-      boolean auth = jsonobj.getBoolean(AUTH).booleanValue();
+      boolean auth = jsonobj.getBoolean(AUTH);
       log.debug("CFG:One time auth: " + auth);
       GlobalConfig.get().setOTEnabled(auth);
     }
     if (jsonobj.containsKey(TIMEOUT)) {
-      int timeout = jsonobj.getInteger(TIMEOUT).intValue();
+      int timeout = jsonobj.getInteger(TIMEOUT);
       log.debug("CFG:Timeout: " + timeout);
       GlobalConfig.get().setTimeout(timeout);
     }
     if (jsonobj.containsKey(SERVER_MODE)) {
-      boolean isServer = jsonobj.getBoolean(SERVER_MODE).booleanValue();
+      boolean isServer = jsonobj.getBoolean(SERVER_MODE);
       log.debug("CFG:Running on server mode: " + isServer);
       GlobalConfig.get().setServerMode(isServer);
     }
@@ -261,6 +261,7 @@ public class GlobalConfig {
 
     while ((c = g.getopt()) != -1)
     {
+      System.out.println("Getopt = [" + c + "]");
       switch(c)
       {
         case 'm':
@@ -300,7 +301,7 @@ public class GlobalConfig {
           break;
         case 'c':
           arg = g.getOptarg();
-          log.debug("CMD:Config file: " + arg);
+          log.info("CMD:Config file: " + arg);
           GlobalConfig.get().setConfigFile(arg);
           break;
         case 't':

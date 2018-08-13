@@ -1,0 +1,53 @@
+2018-08-10 18:11:51.210 [main] INFO  Main:14 - Shadowsocks 0.8.3
+2018-08-10 18:11:51.216 [main] INFO  GlobalConfig:163 - Current config is:
+2018-08-10 18:11:51.217 [main] INFO  GlobalConfig:164 - Mode [Local]
+2018-08-10 18:11:51.217 [main] INFO  GlobalConfig:165 - Crypto method [aes-256-cfb]
+2018-08-10 18:11:51.217 [main] INFO  GlobalConfig:166 - Password [123456]
+2018-08-10 18:11:51.217 [main] INFO  GlobalConfig:167 - Auth [false]
+2018-08-10 18:11:51.217 [main] INFO  GlobalConfig:171 - Server [127.0.0.1]
+2018-08-10 18:11:51.217 [main] INFO  GlobalConfig:172 - Server port [8388]
+2018-08-10 18:11:51.218 [main] INFO  GlobalConfig:173 - Local port [9999]
+2018-08-10 18:11:51.218 [main] INFO  GlobalConfig:175 - Timeout [300]
+2018-08-10 18:12:44.990 [main] INFO  Main:14 - Shadowsocks 0.8.3
+2018-08-10 18:12:44.998 [main] INFO  GlobalConfig:163 - Current config is:
+2018-08-10 18:12:44.998 [main] INFO  GlobalConfig:164 - Mode [Local]
+2018-08-10 18:12:44.998 [main] INFO  GlobalConfig:165 - Crypto method [aes-256-cfb]
+2018-08-10 18:12:44.999 [main] INFO  GlobalConfig:166 - Password [123456]
+2018-08-10 18:12:44.999 [main] INFO  GlobalConfig:167 - Auth [false]
+2018-08-10 18:12:44.999 [main] INFO  GlobalConfig:171 - Server [127.0.0.1]
+2018-08-10 18:12:44.999 [main] INFO  GlobalConfig:172 - Server port [8388]
+2018-08-10 18:12:44.999 [main] INFO  GlobalConfig:173 - Local port [9999]
+2018-08-10 18:12:44.999 [main] INFO  GlobalConfig:175 - Timeout [300]
+2018-08-10 18:13:05.972 [main] INFO  Main:14 - Shadowsocks 0.8.3
+2018-08-10 18:13:05.982 [main] INFO  GlobalConfig:304 - CMD:Config file: etc/shadowsocks.json
+2018-08-10 18:13:05.982 [main] INFO  GlobalConfig:163 - Current config is:
+2018-08-10 18:13:05.982 [main] INFO  GlobalConfig:164 - Mode [Local]
+2018-08-10 18:13:05.982 [main] INFO  GlobalConfig:165 - Crypto method [aes-256-cfb]
+2018-08-10 18:13:05.982 [main] INFO  GlobalConfig:166 - Password [123456]
+2018-08-10 18:13:05.982 [main] INFO  GlobalConfig:167 - Auth [false]
+2018-08-10 18:13:05.983 [main] INFO  GlobalConfig:171 - Server [127.0.0.1]
+2018-08-10 18:13:05.983 [main] INFO  GlobalConfig:172 - Server port [8388]
+2018-08-10 18:13:05.984 [main] INFO  GlobalConfig:173 - Local port [9999]
+2018-08-10 18:13:05.984 [main] INFO  GlobalConfig:175 - Timeout [300]
+2018-08-10 18:13:52.755 [main] INFO  Main:14 - Shadowsocks 0.8.3
+2018-08-10 18:13:52.763 [main] INFO  GlobalConfig:304 - CMD:Config file: etc/shadowsocks.json
+2018-08-10 18:13:52.763 [main] INFO  GlobalConfig:163 - Current config is:
+2018-08-10 18:13:52.763 [main] INFO  GlobalConfig:164 - Mode [Local]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:165 - Crypto method [aes-256-cfb]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:166 - Password [123456]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:167 - Auth [false]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:171 - Server [127.0.0.1]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:172 - Server port [8388]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:173 - Local port [9999]
+2018-08-10 18:13:52.764 [main] INFO  GlobalConfig:175 - Timeout [300]
+2018-08-10 18:14:12.647 [main] INFO  Main:14 - Shadowsocks 0.8.3
+2018-08-10 18:14:12.654 [main] INFO  GlobalConfig:304 - CMD:Config file: etc/shadowsocks.json
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:163 - Current config is:
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:164 - Mode [Local]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:165 - Crypto method [aes-256-cfb]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:166 - Password [123456]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:167 - Auth [true]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:171 - Server [my_server_ip]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:172 - Server port [8388]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:173 - Local port [1080]
+2018-08-10 18:14:12.840 [main] INFO  GlobalConfig:175 - Timeout [360]

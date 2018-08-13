@@ -18,6 +18,15 @@ public class Main {
 
     System.out.println("argv = [" + argv + "]");
 
+    try {
+      GlobalConfig.getConfigFromFile();
+    } catch (Exception e) {
+      log.error("Get config from json file error.", e);
+      return;
+    }
+
     GlobalConfig.get().printConfig();
+
+    new ShadowsockVertx(GlobalConfig.get().isServerMode()).start();
   }
 }
